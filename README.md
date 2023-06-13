@@ -22,6 +22,13 @@ Import encryption and decryption functions from the `.ceaser_cipher.caesar`
 from .ceaser_cipher.caesar import encryption_caesar, decryption_caesar
 ```
 
+## Tests
+
+For tests simply run `unit_testing.sh`
+```shell
+bash unit_testing.sh
+```
+
 ## Contributing
 How can I help with project development? How to submit a suggestion or bug report. 
 How to send modification (issue pull request, what kind of steelguides are used): [CONTRIBUTING.md](./CONTRIBUTING.md).
