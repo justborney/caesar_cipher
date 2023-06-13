@@ -69,17 +69,13 @@ in the GitHub PR, so please respond back to our questions or changes requested d
 review.
 ### <a name="style"></a> Styleguide
 
-When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.  Here are a few points to keep in mind:
+When submitting code, please make every effort to follow existing conventions and style 
+in order to keep the code as readable as possible.  Here are a few points to keep in mind:
 
 * Please run `python -m black ./...` before committing to ensure code aligns with go standards.
-* All dependencies must be defined in the `go.mod` file.
-* For details on the approved style, check out [Effective Go](https://golang.org/doc/effective_go.html).
+* All dependencies must be defined in the `requirements.txt` file.
 * Create tests for all new features.
 * The tests must be covered in CI workflow.
-
-### License
-
-By contributing your code, you agree to license your contribution under the terms of the [Apache License 2.0](LICENSE.txt). All files are released with the Apache License 2.0.
 
 [fork]: https://help.github.com/articles/fork-a-repo/
 [pulls]: https://help.github.com/articles/creating-a-pull-request/
