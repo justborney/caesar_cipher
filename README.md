@@ -36,6 +36,7 @@ How to send modification (issue pull request, what kind of steelguides are used)
 
 ## To do
 - [x] Add a cool README
+- [x] Add unittests
 - [x] Rewrite without `ord()` and `chr()`
 - [x] Add comments and docstrings
 - [x] Add Russian language support
