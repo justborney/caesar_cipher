@@ -9,6 +9,10 @@ class CaesarCipherTests(unittest.TestCase):
         self.assertEqual(encryption_caesar("Hello, World!", 3), "Khoor, Zruog!")
         # Test encryption for Russian text with positive shift
         self.assertEqual(encryption_caesar("Привет, Мир!", 5), "Фхнжйч, Снх!")
+        # Test encryption for English text with cyclic shift (maximum alphabet length)
+        self.assertEqual(encryption_caesar("Hello, World!", 26), "Hello, World!")
+        # Test encryption for Russian text with cyclic shift (maximum alphabet length)
+        self.assertEqual(encryption_caesar("Привет, Мир!", 33), "Привет, Мир!")
         # Test encryption for English text with zero shift
         self.assertEqual(encryption_caesar("Hello, World!", 0), "Hello, World!")
         # Test encryption for Russian text with zero shift
@@ -29,6 +33,10 @@ class CaesarCipherTests(unittest.TestCase):
         self.assertEqual(decryption_caesar("Khoor, Zruog!", 3), "Hello, World!")
         # Test decryption for Russian text with positive shift
         self.assertEqual(decryption_caesar("Фхнжйч, Снх!", 5), "Привет, Мир!")
+        # Test decryption for English text with cyclic shift (maximum alphabet length)
+        self.assertEqual(encryption_caesar("Hello, World!", 26), "Hello, World!")
+        # Test decryption for Russian text with cyclic shift (maximum alphabet length)
+        self.assertEqual(encryption_caesar("Привет, Мир!", 33), "Привет, Мир!")
         # Test decryption for English text with zero shift
         self.assertEqual(decryption_caesar("Hello, World!", 0), "Hello, World!")
         # Test decryption for Russian text with zero shift
