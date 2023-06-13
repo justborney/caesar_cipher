@@ -1,0 +1,25 @@
+# Project
+local_settings.py
+*.log
+*.cache
+*.db
+*.rdb
+*.lock
+!delete.me
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+static/
+conf.d/
+ve/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+nbproject/
+.vagrant
+.project
+.pydevproject
