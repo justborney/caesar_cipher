@@ -28,7 +28,7 @@ For tests simply run `unit_testing.sh`
 ```shell
 bash unit_testing.sh
 ```
-or run the tests with the `python -m unittest` command in the terminal.
+or run the tests in the source code folder with the command `python -m unittest` in the terminal.
 
 ## Contributing
 How can I help with project development? How to submit a suggestion or bug report. 
