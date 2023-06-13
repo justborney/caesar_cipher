@@ -9,7 +9,7 @@ The algorithm is implemented for both Russian and English.
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [To do](#to-do)
-- [Project team](#project team)
+- [Project team](#project-team)
 
 ## Technology
 - [Python3](https://www.python.org/)
