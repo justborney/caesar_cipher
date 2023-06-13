@@ -24,7 +24,7 @@ from .ceaser_cipher.caesar import encryption_caesar, decryption_caesar
 
 ## Contributing
 How can I help with project development? How to submit a suggestion or bug report. 
-How to send modification (issue pull request, what kind of steelguides are used): [Contributing.md](./CONTRIBUTING.md).
+How to send modification (issue pull request, what kind of steelguides are used): [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## To do
 - [x] Add a cool README
