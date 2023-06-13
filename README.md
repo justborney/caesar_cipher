@@ -1,20 +1,40 @@
-# Шифр Цезаря
-Реализовать две функции для шифрования и дешифрования данных. Метод шифрования - шифр Цезаря.
-https://ru.wikipedia.org/wiki/%D0%A8%D0%B8%D1%84%D1%80_%D0%A6%D0%B5%D0%B7%D0%B0%D1%80%D1%8F
+# Caesar cipher
+This project is an implementation of the Caesar cipher to encrypt and decrypt 
+text. It solves the problem of transforming an input string by shifting each character by 
+a certain number of positions in the alphabet.
+The algorithm is implemented for both Russian and English.
 
-### Что должно быть?
+## Contents
+- [Technology](#technology)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [To do](#to-do)
+- [Project team](#project team)
 
-1. Функция шифрования. На вход принимает исходную строку и смещение. На выходе зашифрованная строка.
-    ```Python
-    def encryption_caesar(text: str, shift: int) -> str:
-       pass
-    ```
-2. Функция дешифрования. На вход принимает зашифрованную строку и смещение. На выходе исходная строка.
-    ```Python
-    def decryption_caesar(text: str, shift: int) -> str:
-       pass
-    ```
-3. Запрещено использовать специализированные библиотеки и методы.
-4. Обе функции должны быть покрыты тестами. Тесты пишем в отдельном файле. Для тестов используем или unittest или pytest.
-5. \* Код должен быть написан с соблюдением pep-8 и использовать аннотации типов(hint). Комментарии приветствуются.
-6. \* Оформить проект. Написать README.md к коду, оформить CHANGELOG.md и залить итоговый вариант на github.
+## Technology
+- [Python3](https://www.python.org/)
+- [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## Usage.
+
+Import encryption and decryption functions from the `.ceaser_cipher.caesar`
+```Python
+from .ceaser_cipher.caesar import encryption_caesar, decryption_caesar
+```
+
+## Contributing
+How can I help with project development? How to submit a suggestion or bug report. 
+How to send modification (issue pull request, what kind of steelguides are used): [Contributing.md](./CONTRIBUTING.md).
+
+## To do
+- [x] Add a cool README
+- [x] Rewrite without `ord()` and `chr()`
+- [x] Add comments and docstrings
+- [x] Add Russian language support
+- [x] Add CONTRIBUTING.md
+- [x] Add CHANGELOG.md
+- [ ] Automate CHANGELOG.md
+
+## Project team
+
+- [Ainur Taktamyshev](tg://resolve?domain=justborn) - Python Backend developer
